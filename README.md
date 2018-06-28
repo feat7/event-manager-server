@@ -1,4 +1,7 @@
-# Surface
+# Event Manger Server
+This is server repo for [Event Manager Desktop App](https://github.com/feat7/event-manager-desktop-application)
+
+# Built with Surface
 Surface is simple, light-weight, MVC based framework written in PHP to provide a faster, secure and efficent way to build websites.
 
 # Features
@@ -14,7 +17,7 @@ Surface is simple, light-weight, MVC based framework written in PHP to provide a
 # Installation
 ## Recommended way (Works on Linux, Windows and MacOS)
 ```
-git clone https://github.com/feat7/Surface.git <app-name>
+git clone https://github.com/feat7/event-manager-server.git <app-name>
 cd <app-name>
 composer install
 ```
@@ -24,6 +27,19 @@ To serve:
 php -S 0.0.0.0:8000
 ```
 Checkout ```http://localhost:8000``` in your browser!
+
+### For database:
+Add connection settings to `env.config.php` file.
+run `php cli` command in your terminal.
+Your database will be ready :)
+
+
+## Troubleshooting
+Make sure you've following packages:
+`php libapache2-mod-php php-common php-mbstring php-xmlrpc php-soap php-gd php-xml php-mysql php-cli php-mcrypt php-zip`
+
+# Database Schema
+It is available in `cli` file.
 
 ## Other methods of installation
 
@@ -39,23 +55,6 @@ Checkout ```http://localhost:8000``` in your browser!
 
 ## On Windows
 If you're using ```XAMPP``` then simply move of the contents to ```htdocs``` folder. Note that htdocs should be root folder and don't make any subfolder inside it.
-
-# Next update
-I will make the installation procedure easier and more convenient.
-Create issue if you face any problem regarding installation.
-Router will be very robust and flexible in next version.
-
-# To Do
-- New Router
-- Command Line Interface tool
-- Migrations from CLI
-- SHELL to debug
-- PHPUnit for unit tests
-- Docker implementation.
-- suggest more..
-
-# Contribution
-Please create issue first if you're planning to contribute.
 
 # LICENSE
 The MIT LICENSE.
