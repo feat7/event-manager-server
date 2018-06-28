@@ -1,5 +1,5 @@
 # Event Manger Server
-This is server repo for [Event Manager Desktop App](https://github.com/feat7/event-manager-desktop-application)
+This is server repo for [Event Manager Desktop App](https://github.com/feat7/event-manager-desktop-app)
 
 # Built with Surface
 Surface is simple, light-weight, MVC based framework written in PHP to provide a faster, secure and efficent way to build websites.
