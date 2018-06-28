@@ -4,16 +4,6 @@ This is server repo for [Event Manager Desktop App](https://github.com/feat7/eve
 # Built with Surface
 Surface is simple, light-weight, MVC based framework written in PHP to provide a faster, secure and efficent way to build websites.
 
-# Features
-- Object Relational Mapper used - Eloquent
-- Templating Engine - Twig
-- Simple Router
-- Serverend Validation
-- SMTP settings to send mail
-- Easy and simple middlewares
-- MVC design pattern
-- Easy integration with 3rd party packages
-
 # Installation
 ## Recommended way (Works on Linux, Windows and MacOS)
 ```
@@ -55,6 +45,13 @@ It is available in `cli` file.
 
 ## On Windows
 If you're using ```XAMPP``` then simply move of the contents to ```htdocs``` folder. Note that htdocs should be root folder and don't make any subfolder inside it.
+
+# More
+* Code for application is contained in `app` folder.
+* Routes are available in `app/Routes.php`
+* controllers, models, views are available in their respective folders (inside app).
+* Eloquent is used. Its documentation can be accessed on Laravel's officail docs.
+
 
 # LICENSE
 The MIT LICENSE.
